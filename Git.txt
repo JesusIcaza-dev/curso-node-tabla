@@ -44,4 +44,10 @@ Una vez añadido nuestro proyecto, validamos su sbida
 a traves del siguiente comando.
 
 Comando: git commit -m "Primer commit"
+____________________________________________________
+    
+    Al anterior guardado
+____________________________________________________
+
+Comando: git checkout -- .
 
