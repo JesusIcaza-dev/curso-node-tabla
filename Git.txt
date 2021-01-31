@@ -1,0 +1,47 @@
+___________________________________________________
+Git
+___________________________________________________
+Para poder trabajar con git primeramente demos un
+repaso de cada cosilla que tiene este control de
+versiones.
++----------------------------+
+|   Carpeta .gitignore:      |
+|----------------------------|
+|En esta carpeta definiremos |
+|que carpetas se ignoraran a |
+|la hora de guardar nuestro  |
+|proyecto                    |
++----------------------------+
+
+Ejemplo: vamos a ignorar todos los elementos de la 
+carpeta salida. Tambien deberiamos de ignorar a los
+modulos de node.
+
+El dia de mañana como hemos quitado la parte de los
+modulos no estaran y se rompera el funcionamiento
+de la aplicacion. Esto es algo totalmente natutral.
+Se resuelve lanzando el comando de npm install.
+Este comando recogera la informacion que hay en el
+package.json y por eso es que volvemos a tener las
+dependencias sin ningun problema.
+____________________________________________________
+    
+    Lanzar el inicio de un repositorio
+____________________________________________________
+
+Comando: git init situados en la carpeta de nuestro
+proyecto.
+____________________________________________________
+
+Preparar para una fotografia(commit)
+____________________________________________________
+
+Comando: git add . -> Para añadir todo nuestro
+proyecto ignorando lo que haya en el documento que
+hemos creado antes con el nombre de .gitignore
+
+Una vez añadido nuestro proyecto, validamos su sbida
+a traves del siguiente comando.
+
+Comando: git commit -m "Primer commit"
+
